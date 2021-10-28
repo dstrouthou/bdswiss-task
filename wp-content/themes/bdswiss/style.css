@@ -1,0 +1,212 @@
+/*!
+Theme Name: bdswiss
+Version: 0.1.0
+Text Domain: bdswiss
+
+*/
+body, html {
+    margin: unset;
+    overflow-x: hidden;
+    font-family: Roboto,sans-serif;
+}
+
+body {
+    position: relative;
+    background: #F0F0F3;
+    font-family: Roboto,sans-serif;
+}
+
+.no-display {
+    display: none;
+}
+
+textarea, select, input, option {
+    font-family: Roboto,sans-serif;
+}
+
+h2 {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto,sans-serif;
+}
+
+strong {
+    font-family: Roboto,sans-serif;
+}
+
+header {
+    z-index: 9999;
+    height: 82px;
+    width: 100%;
+    background: transparent;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.full-width-layout {
+    width: 100%;
+    height: auto;
+}
+
+.video-container {
+    width: 100%;
+    height: 500px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.feeds-block {
+    margin-top: 80px;
+    display: block;
+}
+
+.feed-block__item {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.feed-block__item .feed-block__item-title {
+    padding-left: 30px;
+    border-left: .5px solid #ec1c24;
+}
+
+.feed-block__item .feed-block__item-title img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.feed-block__item .feed-block__item-title .feed-description {
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: 300;
+}
+
+.feed-block__item .feed-block__item-content {
+    margin-top: 30px;
+}
+
+.parsed-feed-holder h3, .parsed-feed-holder h3 a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3f3f3f;
+    text-decoration: none;
+}
+
+.parsed-feed-holder h3:hover a {
+    color: #007aff;
+}
+
+.register-block {
+    margin-top: 80px;
+}
+
+.register-block p {
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.register-block h2 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+}
+
+.registration-block__item>* {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.registration-block__item img {
+    width: 80px;
+}
+
+.registration-block__item .title {
+    font-weight: 400;
+    font-size: 25px;
+    color: #3f3f3f;
+}
+
+.registration-block__item .subtitle {
+    font-size: 16px;
+    color: #3f3f3f;
+    font-weight: 300;
+}
+
+.btn-block a {
+    display: block;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #007aff;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.3;
+    padding: 13px 30px;
+}
+
+.btn-block small {
+    font-size: 12px;
+}
+
+.footer-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f9f9f9;
+}
+
+.footer-block p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.footer-block a {
+    color: #ec1c24;
+}
+
+@media (min-width: 992px) {
+    .feeds-block {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .feed-block__item {
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .feed-block__item .feed-block__item-title .feed-description {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .video-container {
+        height: 400px;
+    }
+
+}
